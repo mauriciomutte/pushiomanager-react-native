@@ -7,9 +7,7 @@
     "type": "git",
     "url": "https://github.com/oracle/pushiomanager-react-native"
   },
-  "scripts": {
-    "postinstall": "rm -rf ./framework/PushIOManager.framework && cp -Rf ../../../apps/al-wakrah/ios/framework/PushIOManager.framework ./framework/  || { exit 1 && \n\n\n Error ==> PushIOManager.framework not found. Please copy the PushIOManager.framework to YOUR_APP_DIR/ios/framework/ and install package again. Follow README.md Installation instructions.<===  \n\n\n}"
-  },
+  "scripts": {},
   "keywords": [
     "responsys",
     "pushio",
